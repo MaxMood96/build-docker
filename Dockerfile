@@ -16,7 +16,7 @@
 
 # ------------------------------------------------------------------------
 
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190425
 
 RUN \
     apt-get -q update && apt-get install -y openssh-server software-properties-common git ant curl zip unzip xvfb dbus-x11 ttf-ancient-fonts \
